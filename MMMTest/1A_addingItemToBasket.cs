@@ -23,8 +23,8 @@ namespace MMMTest
         [Test]
         public void addingItemToBasketTest()
         {
-            //Random randomGenerator = new Random();
-            //int randomInt = randomGenerator.Next(10000000);
+            //Test To Add Product To The Basket
+
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
 
             //Check Existing User Can Login

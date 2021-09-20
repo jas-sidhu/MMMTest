@@ -23,6 +23,8 @@ namespace MMMTest
         [Test]
         public void signUpTest()
         {
+            //A Test To Check A User Can Successfully Sign Up
+
             Random randomGenerator = new Random();
             int randomInt = randomGenerator.Next(10000000);
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));

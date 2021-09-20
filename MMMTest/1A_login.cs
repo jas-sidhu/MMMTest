@@ -23,6 +23,8 @@ namespace MMMTest
         [Test]
         public void userLoginTest()
         {
+            //A Test To Check An Existing User Can Login
+
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
 
             //Check Existing User Can Login
